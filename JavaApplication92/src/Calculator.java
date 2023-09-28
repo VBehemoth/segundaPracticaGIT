@@ -9,7 +9,6 @@
  * @author VBehe
  */
 public class Calculator {
-    
     public int multiplica(int num1, int num2) {
         
         int multiplica = num1*num2;
@@ -19,5 +18,13 @@ public class Calculator {
         
         double divide = num1/num2;
         return divide;
+    public int suma (int num1, int num2) {
+    int suma = num1 + num2;
+    return suma;
+}
+    public int resta (int num1, int num2) {
+        
+        int resta = num1 - num2;
+        return resta;
     }
 }
